@@ -5,19 +5,16 @@ lib/
 esm/
 es/
 !docs/docs/es
-.env
 .env.e2e
 .DS_Store
 yarn-error.log
 lerna-debug.log
-/.vscode
 /.idea
 *.sqlite
 coverage
 .umi
 .umi-production
 /uploads
-.env.test
 .env.perf
 docs-dist/
 .npmrc
@@ -78,3 +75,4 @@ openspec/
 .zencoder
 /skills
 /skills-lock.json
+config.bat

@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node rspress.mjs build",
-    "build-all": "./build-all.sh",
+    "build": "node init && node rspress.mjs build",
+    "build-all": "node init && ./build-all.sh",
     "check": "biome check --write",
-    "dev": "node rspress.mjs dev",
+    "dev": "node init && node rspress.mjs dev",
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "node rspress.mjs preview",

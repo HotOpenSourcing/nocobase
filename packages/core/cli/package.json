@@ -6,7 +6,7 @@
   "main": "dist/generated/command-registry.js",
   "scripts": {
     "clean": "node ./scripts/clean.mjs",
-    "build": "node ./scripts/build.mjs",
+    "build": "node init && node ./scripts/build.mjs",
     "test": "yarn cross-env NB_CLI_ROOT=. TEST_ENV=server-side yarn --cwd ../../.. vitest run packages/core/cli/src"
   },
   "keywords": [],
